@@ -9,7 +9,9 @@ What value do you think it offers?
 	
 	(*Notes:  If you accidentally add a file to the staging area, you can remove it using git reset. For example, if you accidentally add lesson_2_reflections.txt, but don’t want it to be committed yet, run git reset lesson_2_reflections.txt and the file will be removed from the staging area, but it will still be in your working directory.)
 	
-	
+	The staging area is a intermediate system in git to add all the files that are to be commited
+	next. It helps us specify exactly which files we want to commit in the next commit command.
+	It is like a cache for commits. it stores to-be-commited files until they are commited.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
