@@ -73,7 +73,3 @@ Now that you have your workspace set up, what do you want to try using Git for?
 		2. To get involved with open source. Because most of the open source projects
 			use git or any kind of version control system, By knowing git I will be
 			able to get involved and contribute to OSS.
-	    
-		3. As git and github are basics to get involved in GSoC, by knowing git I will 
-			be able to participate in GSoC more effectively.
-
