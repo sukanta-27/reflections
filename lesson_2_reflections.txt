@@ -16,13 +16,44 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	I can add a file in staging area everytime I make a logical change, so that
+	when I commit, only one file logical change gets commited. As for each commit,
+	git commits only those changes which are in the staging area. So, by using staging
+	area we can control, which change is to be commited when.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	A branch will be helpful when we want to add a new feature which is experimental 
+	and we don't know if it will work out and don't want to add that in the working copy
+	of the software right now, or we want to keep a working copy available for people to use
+	when we are experimenting with new featues in the other branch. In these situations a branch
+	can be very helpful.
+
 How do the diagrams help you visualize the branch structure?
+
+	The diagrams helped me visualize the branch structure by showing what the branch tree looks like,
+	how a branch diverges and merges into the master, which commit is the parent of which commit,
+	which commits are unreachable from the current commit etc. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Merging, as the name suggests two branches and makes them a single branch with all the commit
+	history of both the branches present. The git merge command take two branches that are to be merged,
+	finds a common parent commit to compare those two branches to, and then accordingly adds and deletes
+	the lines to merge those two branches and make a new commit and calls it master. Which is why
+	merging is often called " Merging X branch into master branch". By merging, we now have both the
+	branche's changes saved into the working master branch.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Pros of Automatic merging : 1. No headaches for the user. the git takes cares of the merging
+								2.Quick. Has user is not involved.
+	
+	Cons of Automatic merging:  1. If any conflict arises git will not be able to automatically 
+								   merge two branches.
+								   
+    cons of Manual merging : 1. Time consuming. headache for the developer.
+	pros : If conflict arises the developer will be quick to fix it.
