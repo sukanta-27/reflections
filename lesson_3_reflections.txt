@@ -31,7 +31,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Having a copy of the last known state of the remote stored locally has many
+    benefits, some of which are:
+      1. It helps you keeping up-to-date with the remote repo and if there were
+         any bugs that has been fixed in remote repo, instead of fixing that again
+         in our local copy, we will get the bug fixes automatically. (This applies
+         if many contributors are working in the project simultanously.)
+
+      2. Same goes for UI changes, new features etc.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
