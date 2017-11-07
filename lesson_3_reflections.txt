@@ -52,4 +52,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Whenever there is a logical change that can change the behaviour of the software,
+    or change the UI of the software, it is better to do that in another branch, so 
+    that the master branch stays intact. Specially if we are working on a open source
+    project with multiple contributors.
+
+    The benefits that this approach has that it does not interfere with the master branch,
+    and if things don't go so well, we can delete the branch or change it accordinly without
+    hampering the workflow of the whole project. It is best for collaborative purposes.
