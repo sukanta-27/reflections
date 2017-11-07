@@ -43,7 +43,11 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Without collaborating via Git and GitHub, I will probably use another version
+    control system. If version control system is not allowed, I will have to work 
+    with a team in a office or something, where it will be easier for us to constantly
+    notify other's about bugs and new features and asking them for their copy of code etc. 
+    It will be Hard. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
